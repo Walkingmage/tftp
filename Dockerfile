@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:latest
 LABEL maintainer="Oleg Tsvinev <oleg.tsvinev@gmail.com>"
 RUN apk add --no-cache tftp-hpa
 EXPOSE 69/udp
